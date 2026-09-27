@@ -157,10 +157,8 @@ cemeterylink-enrichment-agent/
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
-├── docs/
-│   └── CemeteryLink_Enrichment_Agent_Evidence.pdf
-└── evidence/
-    └── CemeteryLink_SQLite_Evidence.xlsx
+├── CemeteryLink_Enrichment_Agent_Evidence.pdf
+└── CemeteryLink_SQLite_Evidence.xlsx
 ```
 
 Raw SQLite databases, production credentials and local `.env` files are intentionally excluded.
@@ -296,8 +294,8 @@ For a new country or source scope, representative review should include:
 
 Supporting material:
 
-- [Project evidence PDF](docs/CemeteryLink_Enrichment_Agent_Evidence.pdf)
-- [SQLite evidence workbook](evidence/CemeteryLink_SQLite_Evidence.xlsx)
+- [Project evidence PDF](CemeteryLink_Enrichment_Agent_Evidence.pdf)
+- [SQLite evidence workbook](CemeteryLink_SQLite_Evidence.xlsx)
 - [Production workflow demo](https://youtu.be/SYaM1aNUqE0)
 
 The raw SQLite databases are retained internally as primary audit material rather than published in the repository.
